@@ -1,0 +1,3 @@
+# Hugging Face Gradio Space runtime; the local core has no third-party dependencies.
+gradio==6.31.0
+plotly==6.9.0

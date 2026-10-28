@@ -1,0 +1,348 @@
+{
+  "demo": true,
+  "model": "DEMO-FIXTURE-NOT-BEAM",
+  "protocol": "c-lite-v1",
+  "complete": true,
+  "expected_items": 96,
+  "completed_items": 96,
+  "trajectories": [
+    {
+      "family": "collider",
+      "arm": "adaptive",
+      "replicate": 0,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 5,
+        "correct": 3
+      },
+      "answer_key_distribution": {
+        "insufficient_info": 2,
+        "positive": 3,
+        "negative": 3
+      },
+      "majority_label_baseline": 0.375,
+      "distinct_failure_cells": 5,
+      "distinct_failures_per_item": 0.625,
+      "distinct_failures_per_solver_call": 0.625,
+      "reasoning_errors_per_item": 0.625,
+      "wilson_wrong_descriptive": [
+        0.30574239460262737,
+        0.8631557141764026
+      ]
+    },
+    {
+      "family": "collider",
+      "arm": "adaptive",
+      "replicate": 1,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 6,
+        "correct": 2
+      },
+      "answer_key_distribution": {
+        "insufficient_info": 2,
+        "negative": 4,
+        "positive": 2
+      },
+      "majority_label_baseline": 0.5,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.75,
+      "wilson_wrong_descriptive": [
+        0.40927543031016883,
+        0.9285207872478909
+      ]
+    },
+    {
+      "family": "collider",
+      "arm": "random",
+      "replicate": 0,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 6,
+        "correct": 2
+      },
+      "answer_key_distribution": {
+        "insufficient_info": 4,
+        "negative": 2,
+        "positive": 2
+      },
+      "majority_label_baseline": 0.5,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.75,
+      "wilson_wrong_descriptive": [
+        0.40927543031016883,
+        0.9285207872478909
+      ]
+    },
+    {
+      "family": "collider",
+      "arm": "random",
+      "replicate": 1,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 6,
+        "correct": 2
+      },
+      "answer_key_distribution": {
+        "negative": 2,
+        "positive": 2,
+        "insufficient_info": 3,
+        "none": 1
+      },
+      "majority_label_baseline": 0.375,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.75,
+      "wilson_wrong_descriptive": [
+        0.40927543031016883,
+        0.9285207872478909
+      ]
+    },
+    {
+      "family": "rtm",
+      "arm": "adaptive",
+      "replicate": 0,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "correct": 4,
+        "wrong": 4
+      },
+      "answer_key_distribution": {
+        "improved": 4,
+        "insufficient_info": 4
+      },
+      "majority_label_baseline": 0.5,
+      "distinct_failure_cells": 4,
+      "distinct_failures_per_item": 0.5,
+      "distinct_failures_per_solver_call": 0.5,
+      "reasoning_errors_per_item": 0.5,
+      "wilson_wrong_descriptive": [
+        0.21521606221387757,
+        0.7847839377861224
+      ]
+    },
+    {
+      "family": "rtm",
+      "arm": "adaptive",
+      "replicate": 1,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 7,
+        "correct": 1
+      },
+      "answer_key_distribution": {
+        "worsened": 5,
+        "insufficient_info": 2,
+        "improved": 1
+      },
+      "majority_label_baseline": 0.625,
+      "distinct_failure_cells": 7,
+      "distinct_failures_per_item": 0.875,
+      "distinct_failures_per_solver_call": 0.875,
+      "reasoning_errors_per_item": 0.875,
+      "wilson_wrong_descriptive": [
+        0.5291118177871464,
+        0.9775825085499433
+      ]
+    },
+    {
+      "family": "rtm",
+      "arm": "random",
+      "replicate": 0,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "correct": 2,
+        "wrong": 6
+      },
+      "answer_key_distribution": {
+        "improved": 2,
+        "insufficient_info": 5,
+        "no_effect": 1
+      },
+      "majority_label_baseline": 0.625,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.75,
+      "wilson_wrong_descriptive": [
+        0.40927543031016883,
+        0.9285207872478909
+      ]
+    },
+    {
+      "family": "rtm",
+      "arm": "random",
+      "replicate": 1,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 7,
+        "correct": 1
+      },
+      "answer_key_distribution": {
+        "insufficient_info": 4,
+        "worsened": 3,
+        "improved": 1
+      },
+      "majority_label_baseline": 0.5,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.875,
+      "wilson_wrong_descriptive": [
+        0.5291118177871464,
+        0.9775825085499433
+      ]
+    },
+    {
+      "family": "simpson",
+      "arm": "adaptive",
+      "replicate": 0,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "correct": 4,
+        "wrong": 4
+      },
+      "answer_key_distribution": {
+        "B_better": 4,
+        "A_better": 4
+      },
+      "majority_label_baseline": 0.5,
+      "distinct_failure_cells": 4,
+      "distinct_failures_per_item": 0.5,
+      "distinct_failures_per_solver_call": 0.5,
+      "reasoning_errors_per_item": 0.5,
+      "wilson_wrong_descriptive": [
+        0.21521606221387757,
+        0.7847839377861224
+      ]
+    },
+    {
+      "family": "simpson",
+      "arm": "adaptive",
+      "replicate": 1,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 6,
+        "correct": 2
+      },
+      "answer_key_distribution": {
+        "A_better": 6,
+        "B_better": 2
+      },
+      "majority_label_baseline": 0.75,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.75,
+      "wilson_wrong_descriptive": [
+        0.40927543031016883,
+        0.9285207872478909
+      ]
+    },
+    {
+      "family": "simpson",
+      "arm": "random",
+      "replicate": 0,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 1,
+        "correct": 7
+      },
+      "answer_key_distribution": {
+        "A_better": 1,
+        "B_better": 7
+      },
+      "majority_label_baseline": 0.875,
+      "distinct_failure_cells": 1,
+      "distinct_failures_per_item": 0.125,
+      "distinct_failures_per_solver_call": 0.125,
+      "reasoning_errors_per_item": 0.125,
+      "wilson_wrong_descriptive": [
+        0.02241749145005667,
+        0.4708881822128535
+      ]
+    },
+    {
+      "family": "simpson",
+      "arm": "random",
+      "replicate": 1,
+      "items": 8,
+      "solver_calls_including_retries": 8,
+      "statuses": {
+        "wrong": 6,
+        "correct": 2
+      },
+      "answer_key_distribution": {
+        "A_better": 6,
+        "B_better": 2
+      },
+      "majority_label_baseline": 0.75,
+      "distinct_failure_cells": 6,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 0.75,
+      "wilson_wrong_descriptive": [
+        0.40927543031016883,
+        0.9285207872478909
+      ]
+    }
+  ],
+  "adaptive_minus_random": {
+    "simpson": {
+      "estimate": 0.1875,
+      "ci95": [
+        0.0,
+        0.375
+      ],
+      "unit": "paired independent trajectory",
+      "replicates": 2
+    },
+    "collider": {
+      "estimate": -0.0625,
+      "ci95": [
+        -0.125,
+        0.0
+      ],
+      "unit": "paired independent trajectory",
+      "replicates": 2
+    },
+    "rtm": {
+      "estimate": -0.0625,
+      "ci95": [
+        -0.25,
+        0.125
+      ],
+      "unit": "paired independent trajectory",
+      "replicates": 2
+    }
+  },
+  "extensions": null,
+  "calls_by_purpose": {
+    "solver": 96
+  },
+  "usage": {},
+  "summed_latency_s": 0.0,
+  "rejections": 31,
+  "notes": [
+    "DEMO DATA: no Beam evidence.",
+    "Wilson intervals are descriptive for adaptive trajectories; discovery comparison uses paired trajectory bootstrap.",
+    "Costs require provider prices; tokens are not a dollar cost estimate.",
+    "A crash while an HTTP request is in flight may incur unrecorded provider usage; exact-once remote billing is not guaranteed."
+  ]
+}

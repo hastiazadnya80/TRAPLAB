@@ -1,0 +1,352 @@
+{
+  "demo": true,
+  "model": "DEMO-FIXTURE-NOT-BEAM",
+  "protocol": "c-lite-v1",
+  "complete": true,
+  "expected_items": 88,
+  "completed_items": 88,
+  "trajectories": [
+    {
+      "family": "collider",
+      "arm": "supplement",
+      "replicate": 0,
+      "items": 10,
+      "solver_calls_including_retries": 10,
+      "statuses": {
+        "unparsed": 4,
+        "wrong": 2,
+        "correct": 4
+      },
+      "answer_key_distribution": {
+        "insufficient_info": 1,
+        "negative": 3,
+        "positive": 6
+      },
+      "majority_label_baseline": 0.6,
+      "distinct_failure_cells": 1,
+      "distinct_failures_per_item": 0.1,
+      "distinct_failures_per_solver_call": 0.1,
+      "reasoning_errors_per_item": 0.2,
+      "wilson_wrong_descriptive": [
+        0.05668215145437519,
+        0.5098375284633583
+      ]
+    },
+    {
+      "family": "rtm",
+      "arm": "supplement",
+      "replicate": 0,
+      "items": 4,
+      "solver_calls_including_retries": 4,
+      "statuses": {
+        "wrong": 4
+      },
+      "answer_key_distribution": {
+        "no_effect": 1,
+        "insufficient_info": 1,
+        "worsened": 2
+      },
+      "majority_label_baseline": 0.5,
+      "distinct_failure_cells": 3,
+      "distinct_failures_per_item": 0.75,
+      "distinct_failures_per_solver_call": 0.75,
+      "reasoning_errors_per_item": 1.0,
+      "wilson_wrong_descriptive": [
+        0.5101091635454027,
+        1
+      ]
+    },
+    {
+      "family": "simpson",
+      "arm": "supplement",
+      "replicate": 0,
+      "items": 74,
+      "solver_calls_including_retries": 74,
+      "statuses": {
+        "unparsed": 2,
+        "wrong": 59,
+        "correct": 13
+      },
+      "answer_key_distribution": {
+        "B_better": 15,
+        "A_better": 59
+      },
+      "majority_label_baseline": 0.7972972972972973,
+      "distinct_failure_cells": 8,
+      "distinct_failures_per_item": 0.10810810810810811,
+      "distinct_failures_per_solver_call": 0.10810810810810811,
+      "reasoning_errors_per_item": 0.7972972972972973,
+      "wilson_wrong_descriptive": [
+        0.6921222305619936,
+        0.8731292519590741
+      ]
+    }
+  ],
+  "adaptive_minus_random": {},
+  "extensions": {
+    "complete": true,
+    "expected_items": 88,
+    "completed_items": 88,
+    "self_correction": {
+      "wrong_baseline": 4,
+      "correct_baseline": 4,
+      "fixed": 0,
+      "fix_rate": 0.0,
+      "fix_wilson": [
+        0,
+        0.4898908364545973
+      ],
+      "broken": 0,
+      "break_rate": 0.0,
+      "break_wilson": [
+        0,
+        0.4898908364545973
+      ],
+      "operational_failures": 6,
+      "interpretation": "Descriptive revision after numerical feedback; no no-tool control."
+    },
+    "story_sensitivity": {
+      "included_bases": 2,
+      "excluded_or_incomplete_bases": 0,
+      "across_minus_within_disagreement": 0.0,
+      "two_sided_permutation_p": 1.0,
+      "permutations": 2000,
+      "unit": "base item; labels permuted within base preserving three repeats per story",
+      "per_story": [
+        {
+          "base": 0,
+          "story": "classroom",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 0,
+          "story": "garden",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 0,
+          "story": "studio",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 0,
+          "story": "warehouse",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 0,
+          "story": "workshop",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 1,
+          "story": "classroom",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 1,
+          "story": "garden",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 1,
+          "story": "studio",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 1,
+          "story": "warehouse",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        },
+        {
+          "base": 1,
+          "story": "workshop",
+          "valid": 3,
+          "correct": 0,
+          "responses": 3
+        }
+      ]
+    },
+    "noise": [
+      {
+        "source_slot": "1/collider/random/3",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "0/collider/adaptive/4",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "1/rtm/random/5",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "0/simpson/adaptive/2",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "1/simpson/adaptive/2",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "1/simpson/adaptive/7",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "0/collider/adaptive/3",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "1/simpson/random/6",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "1/simpson/adaptive/5",
+        "disagreement": 0.0
+      },
+      {
+        "source_slot": "0/simpson/random/5",
+        "disagreement": 0.0
+      }
+    ],
+    "flip_points": [
+      {
+        "configuration": 0,
+        "analytic_root": 0.3,
+        "status": "no_flip",
+        "grid": [
+          {
+            "configuration": 0,
+            "point": 0,
+            "x": 0.05,
+            "analytic_root": 0.3,
+            "answer": "B_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 1,
+            "x": 0.14,
+            "analytic_root": 0.3,
+            "answer": "B_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 2,
+            "x": 0.23,
+            "analytic_root": 0.3,
+            "answer": "B_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 3,
+            "x": 0.32,
+            "analytic_root": 0.3,
+            "rejected": "ambiguity_band",
+            "majority": null,
+            "valid_responses": 0
+          },
+          {
+            "configuration": 0,
+            "point": 4,
+            "x": 0.41,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 5,
+            "x": 0.5,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 6,
+            "x": 0.59,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 7,
+            "x": 0.68,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 8,
+            "x": 0.77,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 9,
+            "x": 0.86,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          },
+          {
+            "configuration": 0,
+            "point": 10,
+            "x": 0.95,
+            "analytic_root": 0.3,
+            "answer": "A_better",
+            "majority": "B_better",
+            "valid_responses": 3
+          }
+        ],
+        "crossings": 0
+      }
+    ]
+  },
+  "calls_by_purpose": {
+    "solver": 88
+  },
+  "usage": {},
+  "summed_latency_s": 0.0,
+  "rejections": 0,
+  "notes": [
+    "DEMO DATA: no Beam evidence.",
+    "Wilson intervals are descriptive for adaptive trajectories; discovery comparison uses paired trajectory bootstrap.",
+    "Costs require provider prices; tokens are not a dollar cost estimate.",
+    "A crash while an HTTP request is in flight may incur unrecorded provider usage; exact-once remote billing is not guaranteed."
+  ]
+}

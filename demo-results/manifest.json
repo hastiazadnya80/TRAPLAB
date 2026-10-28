@@ -1,0 +1,64 @@
+{
+  "protocol": "c-lite-v1",
+  "config": {
+    "seed": 42,
+    "replicates": 2,
+    "items_per_family_arm": 8,
+    "round_size": 4,
+    "max_proposals_per_round": 40,
+    "families": [
+      "simpson",
+      "collider",
+      "rtm"
+    ]
+  },
+  "stories": [
+    {
+      "id": "workshop",
+      "domain": "workshop",
+      "unit": "component",
+      "outcome": "quality"
+    },
+    {
+      "id": "garden",
+      "domain": "garden",
+      "unit": "plant",
+      "outcome": "vigor"
+    },
+    {
+      "id": "studio",
+      "domain": "studio",
+      "unit": "recording",
+      "outcome": "clarity"
+    },
+    {
+      "id": "classroom",
+      "domain": "classroom",
+      "unit": "learner",
+      "outcome": "score"
+    },
+    {
+      "id": "warehouse",
+      "domain": "warehouse",
+      "unit": "package",
+      "outcome": "rating"
+    }
+  ],
+  "model": "DEMO-FIXTURE-NOT-BEAM",
+  "demo": true,
+  "source": {
+    "__init__.py": "586439c31b69e192a90cf7d5b259c2b4d245076aa10d0d05a7a469dce7fe78a6",
+    "analysis.py": "16fd56cc5ea3cb47c745ea773878b05ee46f23b3ab06005c9c763202bd1e47f3",
+    "beam_client.py": "a5fcc52a78258f17faca08d64cec373bdf98c65752cd4c4ce3b675c8385ee1cc",
+    "cli.py": "5086a9bed66b03e3d1aa77dddc4942ed837007434f52c890f887246a577314a1",
+    "core.py": "b72d9e0fb5b68422ec6b3b575bb76283e0c3434d61b2ffab7ba90f78140d539d",
+    "evaluator.py": "8ae7f07082be932dc93551fa17146fa88748dd4e59dd6f4d6705b57106aad157",
+    "experiments.py": "f3d86f6b1382b5b973feb424305524b9232d810df5298c2769039021df5b703d",
+    "runner.py": "0b2490f13b957a524974b8870a4d3285c81a051d64f91222cc39c63b6f47eaf5",
+    "sampling.py": "08cd02cf142571c144d4c48645aa154014c40a9807a57d8e48a0dd28ca2968b8",
+    "storage.py": "20fdd6ffae04ed8cecd1e1e07d64a8a89bcadc8ead155fa994c372700a675722"
+  },
+  "identity": "e8e08659e1747089242b3c5396937a1bbb01b1e24cf32a574ee232c3257c689e",
+  "created_at": "2026-10-28T10:31:46.939943+00:00",
+  "commit": null
+}

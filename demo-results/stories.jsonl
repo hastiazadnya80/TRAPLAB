@@ -1,0 +1,5 @@
+{"domain": "workshop", "id": "workshop", "outcome": "quality", "unit": "component"}
+{"domain": "garden", "id": "garden", "outcome": "vigor", "unit": "plant"}
+{"domain": "studio", "id": "studio", "outcome": "clarity", "unit": "recording"}
+{"domain": "classroom", "id": "classroom", "outcome": "score", "unit": "learner"}
+{"domain": "warehouse", "id": "warehouse", "outcome": "rating", "unit": "package"}

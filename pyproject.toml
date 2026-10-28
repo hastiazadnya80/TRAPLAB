@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traplab"
+version = "0.1.0"
+description = "An auditable adversarial statistical reasoning lab for Beam"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+space = ["gradio>=5,<7", "plotly>=5,<7"]
+publish = ["huggingface-hub>=0.27,<2"]
+
+[project.scripts]
+traplab = "traplab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
